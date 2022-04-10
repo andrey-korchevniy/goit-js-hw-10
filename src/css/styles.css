@@ -18,3 +18,10 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.bg {
+  background: radial-gradient(rgb(82, 82, 82) 2%, transparent 8%) 0 0, radial-gradient(rgba(255, 250, 250, 0.1) 1%, transparent 1%) 50px 50px;
+  background-size: 25px 25px;
+}
+
+
