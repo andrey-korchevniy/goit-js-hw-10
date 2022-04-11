@@ -1,13 +1,10 @@
-{{#each this}}
-
+{{!-- шаблон карточки страны --}}
+<div class="card">
     <h2>
-        <svg href="{{flag}}" class="flag"> </svg>
+        <img class="flag"src={{flags.svg}} >
         {{name}}
     </h2>
-    <ul>
-        <li><b>Capital:</b> {{capital}}</li> 
-        <li><b>Population:</b> {{population}}</li>
-        <li><b>Languages:</b> {{languages}}</li>
-    </ul>
-
-{{/each}}
+    <p><b>Capital:</b> {{capital}}</p> 
+    <p><b>Population:</b> {{population}}</p>
+    <p><b>Languages:</b> {{languages}}</p> 
+</div>

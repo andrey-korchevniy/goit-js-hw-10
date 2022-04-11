@@ -20,8 +20,23 @@ body {
 }
 
 .bg {
-  background: radial-gradient(rgb(82, 82, 82) 2%, transparent 8%) 0 0, radial-gradient(rgba(255, 250, 250, 0.1) 1%, transparent 1%) 50px 50px;
+  background: radial-gradient(rgb(82, 82, 82) 2%, transparent 6%) 0 0, radial-gradient(rgba(255, 250, 250, 0.1) 1%, transparent 1%) 50px 50px;
   background-size: 25px 25px;
 }
 
+.country-list {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin: 0;
+}
 
+.markup {
+  display: flex;
+}
+
+.flag {
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+  align-self: center;
+}
